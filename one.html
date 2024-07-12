@@ -1,0 +1,26 @@
+<html>  
+ <head>
+    <link rel="stylesheet" href="styles.css">
+ </head>   
+ <body style="background-color: black;"> 
+    <form id="form1" action="">
+    <input id="username" type="text" placeholder="Enter your username"> 
+    <br>
+    <input id="submit" type="submit">
+    <!-- <a href="two.html">sumbit</a> -->
+</form>
+    <marquee style="color: white;" behavior="" direction="">This website is created by Abhay</marquee>
+</body>
+<script>
+    document.getElementById("form1").addEventListener('submit', function(event){
+        const userName = document.getElementById("username").value;
+        if(userName!=''){
+            event.preventDefault();
+            window.location.href="two.html"
+        }else{
+            event.preventDefault();
+            alert("Enter username");
+        }
+    })
+</script>
+</html>    

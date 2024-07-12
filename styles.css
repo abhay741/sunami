@@ -1,0 +1,79 @@
+h4 {
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+p {
+    font-size: 15px;
+}
+/* .pageLink{
+   margin-top: 10%;
+} */
+
+a{
+  color: white;
+  text-decoration: none; 
+  border: 2px solid green;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+#form1 {
+    padding: 100px;
+    background: black;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+#form1 input{
+    padding: 15px;
+    margin-right: 50%;
+    border: 1px solid black;
+}
+
+marquee {
+    font-size: 50px;
+}
+
+/* sideBar */
+.main {
+    display: flex;
+}
+
+.sideBar {
+    border: 2px solid black;
+    /* margin-bottom: 5rem; */
+    width: 20%;
+    height: 95vh;
+}
+
+.sideBar ul {
+    margin-top: 3rem;
+}
+.sideBar ul li {
+    margin-bottom: 4rem;
+}
+
+.rightSide {
+    padding-left: 5rem;
+    width: 80%;
+}
+
+.imgDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgDiv img {
+    margin-bottom: 3rem;
+    height: 10rem;
+    width: 25rem;
+}
